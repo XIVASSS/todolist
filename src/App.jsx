@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useReducer } from 'react';
 import styled from 'styled-components';
 
-// Reducer for todo state management
 const todoReducer = (state, action) => {
   switch (action.type) {
     case 'ADD_TODO':
@@ -25,7 +24,6 @@ const todoReducer = (state, action) => {
   }
 };
 
-// Styled Components
 const AppContainer = styled.div`
   max-width: 600px;
   margin: 50px auto;
